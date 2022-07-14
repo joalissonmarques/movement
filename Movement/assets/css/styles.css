@@ -1,0 +1,553 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700;800&family=Montserrat&family=Sora:wght@400;500;600;700;800&display=swap');
+
+/* Bootstrap - Inicialização/Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  color: var(--text-color-principal);
+  font-family: var(--font-secundaria);
+  font-size: 100%;
+}
+
+/* ------------------VARIAVEIS---------------------- */
+:root {
+  --text-color-principal: #FFFFFF;
+  --font-primaria: 'Kumbh Sans', Sans-serif;
+  --font-secundaria: 'Sora', Sans-serif;
+  --color-milhas: #2DD838;
+  --color-milhas-gradient: #00cd87;
+  --background-icon: #02521c;
+}
+
+.d-flex-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container-align {
+  align-items: center;
+  justify-content: center;
+}
+
+.padding-large {
+  padding: 80px 0;
+}
+
+.padding-small {
+  padding: 20px 0;
+}
+
+.elementor-margin-right {
+  margin-right: 15px;
+}
+
+.text-heading-title h1{
+  color: var(--text-color-principal);
+  font-size: 2.25rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.text-p {
+  color: var(--text-color-principal);
+  font-size: 1.3125rem;
+  font-weight: 400;
+}
+
+.elementor-container {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px 0;
+  max-width: 1300px;
+  width: 100%;
+}
+
+.elementor-icon i {
+  font-size: 2.25rem;
+  color: var(--color-milhas);
+}
+
+/* ----------------------------------------------------- */
+/* Inicio Section Banner */
+/* ----------------------------------------------------- */
+.banner-img {
+  background-image: url(../image/background-banner.png);
+  background-position: top center;
+  background-size: cover;
+}
+
+.b-margin {
+  margin-bottom: 20px;
+}
+
+.banner-left {
+  width: 43.769%;
+  padding: 10px;
+}
+
+.banner-p {
+  margin-bottom: 34.4px;
+}
+/* Inicio milhas e calendario */
+.banner-milhas {
+  align-items: center;
+  height: 100%;
+  padding: 10px;
+}
+
+.banner-milhas picture img {
+  width: 75%;
+}
+
+.banner-milhas .text-span span{
+  font-size: 1.125rem;
+  font-weight: 800;
+}
+/* Fim milhas e calendario */
+/* Inicio Button informação */
+
+.b-div-left {
+  width: 75%;
+}
+
+.button-information {
+  padding: 14px;
+  background-color: var(--background-icon);
+  border: 1px solid #2dd838;
+  border-radius: 10px;
+}
+
+.button-information p {
+  font-size: 1.12rem;
+  text-align: center;
+  align-items: center;
+}
+/* Fim Button informação */
+/* Form de email */
+
+.banner-email{
+  padding-top: 10px;
+}
+
+.elementor-form {
+  width: 100%;
+  padding: 0 5px;
+}
+
+.elementor-form input {
+  width: 100%;
+  outline: none;
+  padding: 8px 16px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  font-size: 0.9375rem;
+  line-height: 1.6875rem;
+  min-height: 40px;
+}
+
+.elementor-submit button{
+  width: 100%;
+  background-color: var(--color-milhas);
+  padding: 15px 0;
+  border-radius: 6px;
+  line-height: 2.025rem;
+}
+
+.text-button {
+  color: var(--text-color-principal);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+}
+/* Fim Form de email */
+/* Fim Section Banner */
+
+/* ----------------------------------------------------- */
+/* Inicio Informações */
+/* ----------------------------------------------------- */
+
+.informations{
+  background: linear-gradient(290deg, var(--color-milhas) 0%, var(--color-milhas-gradient) 100%);
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 20%;
+}
+
+.card-icon {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.card-icon-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84px;
+  width: 84px;
+  background-color: var(--background-icon);
+  border-radius: 50%;
+  border: 3px solid #FFFFFF;
+}
+
+.card-icon-circle i {
+  font-size: 2.4375rem;
+}
+
+.card-text h3{
+  color: var(--text-color-principal);
+  line-height: 21.6px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+}
+/* ----------------------------------------------------- */
+/* Fim Informações */
+/* ----------------------------------------------------- */
+/* ----------------------------------------------------- */
+/* Inicio Informações Milhas */
+/* ----------------------------------------------------- */
+
+
+.info-milhas-img {
+  background-image: url(../image/background-1.jpg);
+  background-size: cover;
+}
+
+.elementor-info-milhas {
+  max-width: 1170px;
+}
+
+.info-milhas {
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.info-milhas-check {
+  gap: 1rem;
+  align-items: center;
+}
+
+.info-milhas-text h3 {
+  color: var(--text-color-principal);
+  font-size: 1.75rem;
+}
+
+.info-milhas-icon i {
+  color: var(--color-milhas);
+  border-color: var(--color-milhas);
+  font-size: 3.125rem;
+}
+
+.info-elementor-box {
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--color-milhas);
+  margin: 20px 0;
+  padding: 90px 0 90px 40px;
+  width: 100%;
+}
+
+.info-background-1 {
+  background-image: url(../image/banner_1-scaled.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.info-background-2 {
+  background-image: url(../image/banner_2-scaled.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.info-background-3 {
+  background-image: url(../image/banner_3-scaled.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.box-datas {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.box-ep {
+  background-color: var(--color-milhas);
+}
+
+.text-box {
+  font-size: 1.25rem;
+}
+
+.box {
+  text-transform: uppercase;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+
+.box-data {
+  background-color: var(--background-icon);
+}
+
+.box-padd-top {
+  padding: 20px 0 0;
+}
+
+.box-text-main h1{
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.box-youtube {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.text-youtube {
+  font-size: 1.125rem;
+}
+/* ----------------------------------------------------- */
+/* Fim Informações Milhas */
+/* ----------------------------------------------------- */
+/* Inicio Norton Reveno */
+/* ----------------------------------------------------- */
+.hr-divider {
+  background: linear-gradient(90deg, var(--color-milhas) 0%, var(--color-milhas-gradient) 100%);
+  height: 1px;
+}
+.norton-background-img {
+  background-image: url(../image/norton-perfil.png);
+  background-size: cover;
+  background-position: top center;
+}
+
+.norton-left, .norton-right {
+  padding: 10px;
+  width: 50%;
+}
+
+.norton-text h1{
+  font-size: 2.875rem;
+}
+
+.large {
+  background-color: var(--color-milhas);
+  height: 4px;
+  width: 10%;
+}
+
+.small {
+  background-color: var(--color-milhas);
+  height: 1px;
+  width: 40%;
+  margin-top: -3px;
+}
+
+.box-text-p{
+  color: var(--text-color-principal);
+  font-size: 1.325rem;
+  margin-bottom: 0.9rem;
+}
+
+.small-white {
+  background-color: var(--text-color-principal);
+  margin: 40px 0;
+  height: 1px;
+  width: 10%;
+}
+
+.elementor-countdown {
+  display: flex;
+  padding: 10px 0 30px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, var(--color-milhas) 0%, var(--color-milhas-gradient) 100%);
+  max-width: 95%;
+  justify-content: space-evenly;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.count {
+  text-transform: uppercase;
+  color: var(--text-color-principal);
+  font-size: 4.1875rem;
+  font-weight: 600;
+}
+
+.date {
+  color: var(--text-color-principal);
+  letter-spacing: 3.6px;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+}
+/* ----------------------------------------------------- */
+/* Fim Norton Reveno */
+/* ----------------------------------------------------- */
+/* Inicio Inscricao */
+/* ----------------------------------------------------- */
+
+#subscribe {
+  height: 380px;
+}
+
+.button-submit button{
+  background: linear-gradient(270deg, #141414 0%, #323232 100%);
+  padding: 12px 24px;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  border-radius: 9px;
+  margin: 20px;
+}
+/* ----------------------------------------------------- */
+/* Fim Inscricao */
+/* ----------------------------------------------------- */
+/* Footer */
+/* ----------------------------------------------------- */
+footer {
+  background-color: rgba(0,0,0,.98);
+  padding: 50px 0 0;
+}
+
+.footer {
+  align-items: center;
+}
+
+.footer h2 {
+  font-family: montserrat, sans-serif;
+  color: rgba(255,255,255,.99);
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.footer-p h2{
+  text-transform: uppercase;
+  font-size: 0.5625rem;
+  letter-spacing: 2px;
+}
+
+
+@media (max-width: 768px){
+
+  .banner-left {
+    width: 100%;
+  }
+
+  .banner-div {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .text-heading-title h1 {
+    font-size: 1.3125rem;
+  }
+  .count {
+    font-size: 3.1875rem;
+  }
+  .banner-milhas {
+    justify-content: center;
+  }
+  .b-div-left {
+    width: 100%;
+  }
+
+  .informations {
+    height: 500px;
+  }
+
+  .elementor-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card-info {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  #subscribe {
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px){
+  .banner-img {
+    background-image: url(../image/norton.mobile.png);
+    background-size: cover;
+  }
+  .banner-milhas picture img {
+    width: 40%;
+  }
+
+  .info-milhas {
+    text-align: center;
+  }
+
+  .info-background-1 {
+    background-image: url(../image/banner_1_mobile.jpg);
+  }
+
+  .info-background-2 {
+    background-image: url(../image/banner_2_mobile.jpg);
+  }
+
+  .info-background-3 {
+    background-image: url(../image/banner_3_mobile.jpg);
+  }
+
+  .text-box {
+    font-size: 1rem;
+  }
+
+  .info-elementor-box {
+    padding: 300px 5px 40px;
+  }
+
+  .box-text-main h1 {
+    font-size: 1.625rem;
+  }
+
+  .count {
+    font-size: 2.1875rem;
+  }
+
+  .norton-background-img {
+    background-image: url(../image/norton-perfil_mobile.jpg);
+    background-position: -83px -41px;
+    background-size: 536px auto;
+  }
+
+  .norton-right {
+    text-align: center;
+    width: 100%;
+   }
+
+}
